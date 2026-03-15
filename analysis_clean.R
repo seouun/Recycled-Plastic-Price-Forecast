@@ -17,7 +17,7 @@ showtext_auto()
 par(family = "AppleGothic")
 
 # ── 1. Data Load & Preprocessing ─────────────────────────────
-df <- read.csv("/Users/seoyun/Desktop/recycled_resource_plastic_price_fixed.csv",
+df <- read.csv("recycled_resource_plastic_price_fixed.csv",
                colClasses = c(date = "character"))
 
 df_summary <- df %>%
